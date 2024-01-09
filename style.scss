@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+/* importando o arquivo de cores*/ 
+@import "partial/colors.scss";
+@import "partial/header.scss";
+@import "partial/layaout.scss";
+body{
+    font-family : 'Sora', sans-serif;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: $primary-normal;
+
+}
+button{
+    font-family: 'sora', sans-serif;
+    cursor: pointer;
+}
+svg{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
